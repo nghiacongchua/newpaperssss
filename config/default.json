@@ -1,0 +1,23 @@
+{
+    "mysql": {
+        "host": "localhost",
+        "port": 3306,
+        "user": "root",
+        "password": "",
+        "database": "news_website",
+        "connectionLimit": 10
+    },
+    "google": {
+        "clientID": "as",
+        "clientSecret": "as",
+        "callbackURL": "http://localhost:3000/login/google/callback"
+    },
+    "facebook": {
+        "facebook_key": "as",
+        "facebook_secret": "as",
+        "callback_url": "http://localhost:3000/login/auth/facebook/callback"
+    },
+    "pagination": {
+        "limit": 5
+    }
+}
